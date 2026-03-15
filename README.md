@@ -102,32 +102,6 @@
 
 ---
 
-## 🚀 פריסה ל-Vercel
-
-### מבנה הקבצים
-```
-repository/
-├── api/
-│   └── index.py        ← Flask backend
-├── index.html
-├── style.css
-├── index.js
-├── vercel.json
-└── requirements.txt
-```
-
-### שלבי הפריסה
-1. **העלה לGitHub** — צור repo חדש והעלה את כל הקבצים
-2. **Vercel** — היכנס ל-[vercel.com](https://vercel.com), "Add New Project", בחר את ה-repo
-3. לחץ **Deploy** — Vercel מזהה הכל אוטומטית!
-
-### משתני סביבה (אופציונלי)
-| משתנה | תיאור |
-|---|---|
-| `HF_API_KEY` | מפתח HuggingFace קבוע (אופציונלי) |
-
----
-
 
 ## 🔑 מפתחות API
 
@@ -160,19 +134,6 @@ repository/
 - **ממוצע לסיבוב**
 - **סיבובים נותרים** מוערכים (לפי מכסת ~40K טוקן יומית של HF)
 - **זמן חידוש המכסה** — חצות UTC בשעון מקומי
-
----
-
-## 🛠️ טכנולוגיות
-
-| שכבה | טכנולוגיה |
-|---|---|
-| Frontend | HTML5, CSS3, Vanilla JS |
-| Backend | Python 3.10+, Flask, flask-cors |
-| AI Models | HuggingFace Inference API, Google Gemini API |
-| TTS | Google Gemini TTS (multi-speaker) |
-| Desktop | PyWebView, PyInstaller |
-| Cloud | Vercel Serverless |
 
 ---
 
