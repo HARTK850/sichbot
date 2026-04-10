@@ -157,21 +157,25 @@ const HF_MODELS = [
   {
   id: "google/gemma-4-31B-it",
   name: "Gemma 4 31B ⚡ (חדש מאוד)",
+  emoji:'💎',
   cat: "google"
 },
 {
   id: "google/gemma-4-26B-A4B-it",
   name: "Gemma 4 26B (MoE)",
+  emoji:'💎',
   cat: "google"
 },
 {
   id: "google/gemma-4-E4B-it",
   name: "Gemma 4 E4B (קל ומהיר)",
+  emoji:'💎',
   cat: "google"
 },
 {
   id: "google/gemma-4-E2B-it",
   name: "Gemma 4 E2B (קל מאוד)",
+  emoji:'💎',
   cat: "google"
 },
   { id:'meta-llama/Llama-3.2-1B-Instruct',             name:'Llama 3.2 (1B) ⚡',           emoji:'🦙', cat:'llama' },
