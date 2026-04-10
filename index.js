@@ -154,6 +154,26 @@ const HF_BASE            = 'https://router.huggingface.co/hf-inference/models/';
 const HF_MODELS = [
   // ── Mistral family ──
   // ── Meta Llama family ──
+  {
+  id: "google/gemma-4-31B-it",
+  name: "Gemma 4 31B ⚡ (חדש מאוד)",
+  cat: "google"
+},
+{
+  id: "google/gemma-4-26B-A4B-it",
+  name: "Gemma 4 26B (MoE)",
+  cat: "google"
+},
+{
+  id: "google/gemma-4-E4B-it",
+  name: "Gemma 4 E4B (קל ומהיר)",
+  cat: "google"
+},
+{
+  id: "google/gemma-4-E2B-it",
+  name: "Gemma 4 E2B (קל מאוד)",
+  cat: "google"
+},
   { id:'meta-llama/Llama-3.2-1B-Instruct',             name:'Llama 3.2 (1B) ⚡',           emoji:'🦙', cat:'llama' },
   { id:'meta-llama/Llama-3.2-3B-Instruct',             name:'Llama 3.2 (3B)',              emoji:'🦙', cat:'llama' },
   { id:'meta-llama/Meta-Llama-3-8B-Instruct',          name:'Llama 3 (8B)',                emoji:'🦙', cat:'llama' },
